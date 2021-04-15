@@ -1,0 +1,16 @@
+<head>
+    <body>
+        <p>>
+            <h2>the three news</h2>
+        </p>
+            {% for article in articles%}
+              <tr>
+                <ul>
+                    <li>Headline: {{article['title']}}</li>
+                    <li>Description: {{article['description']}}</li>
+                    <li><a href="{{article['url']}}">Url: {{article['url']}}</a></li><br>
+                </ul>
+              </tr>
+            {% endfor %}
+    </body>
+</head>

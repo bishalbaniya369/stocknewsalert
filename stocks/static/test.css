@@ -1,0 +1,29 @@
+/*body {
+  background-color: lightblue;
+} 
+h3 {
+    color: rgb(18, 20, 19);
+    padding: 40px;
+    text-align: center;
+  }
+input[type=number] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  */
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+ 
